@@ -5,10 +5,12 @@ end
 
 def subtract(a, b)
   # return the result of subtracting b from a
+  a - b
 end
 
 def multiply(a, b)
   # return the result of multiplying a times b
+  a * b
 end
 
 def divide(a, b)
@@ -29,8 +31,10 @@ end
 
 def even?(number)
   # return true if the number is even (hint: use integer's even? method)
+  2.even?
 end
 
 def odd?(number)
   # return true if the number is odd (hint: use integer's odd? method)
+  2.odd?
 end
